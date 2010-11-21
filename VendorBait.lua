@@ -1,6 +1,7 @@
 
 local f = LibStub("tekShiner").new(QuestRewardScrollChildFrame)
 f:Hide()
+QuestInfoItem1 = nil
 
 
 f:RegisterEvent("QUEST_COMPLETE")
